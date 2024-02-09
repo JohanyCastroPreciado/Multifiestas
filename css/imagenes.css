@@ -1,0 +1,44 @@
+li .min	{
+	background: url(../imagenes/base1.png);
+	width: 150px;
+	height: auto;
+	padding: 0;
+    margin: 0;
+	}
+
+#borde	{
+	width: 405px;
+	height: 305px;
+	position: absolute;
+	top: 1520px;	/* Provoca la separacion del borde superior */
+	left: 25%;	/* Separa la imagen grande de la pequea */
+	background: url(../imagenes/fondo_de_cada_galeria.png);
+	}
+
+.luno{
+	list-style-type: none;
+	margin: 0 5px; /* Eliminacion de vieta en IE6 */
+	padding: 0px; /* Eliminacion de vieta en IE6 */
+	float:left;
+	}
+	
+.max{
+    width: 630px;
+    height: auto;
+	visibility: hidden;
+	position: absolute;
+	top:1520px;	/* Provoca la separacion del borde superior */
+	left: 25%;	/* Separa la imagen grande de la pequea */
+  margin-left: 5px;
+	}
+	
+.a:hover .max	{
+	visibility: visible;
+	}
+#galeria{
+    background-color: snow;
+    width: 1280px;
+    height: 400px;
+    margin: auto;
+    padding-top: 25px;
+}

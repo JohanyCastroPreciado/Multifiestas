@@ -1,0 +1,36 @@
+body{
+    background-color: #FFD47F;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Comic Sans MS;
+    font-size: 18px;
+}
+#documentos{
+    width: 480px;
+    height: 500px;
+    margin: 50px 0;
+}
+#documentos h3{
+    text-align: center;
+    color: #242F88;
+}
+#documentos .documentos{
+    width: 440px;
+    height: 400px;
+    margin: 5px auto;
+    padding:10px 0;
+}
+#documentos .documentos li{
+    width: 400px;
+    height: 30px;
+    margin: auto;
+    padding: 5px 0;
+    list-style-image: url(../imagenes/icono.png);
+}
+#documentos .documentos li a{
+    text-decoration: none;
+}
+#documentos .documentos li a:hover{
+    text-decoration: underline;
+}

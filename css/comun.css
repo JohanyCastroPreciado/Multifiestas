@@ -1,0 +1,624 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+.lista li:hover{
+    background-color: rgb(5, 143, 204);
+    text-shadow: 1px 1px 5px black;
+}
+.lista li{
+    color: aliceblue;
+}
+@media screen and (min-width:1280px){
+#logo{
+    width: 180px;
+    height: auto;
+    margin: 5px 15px;
+    padding: 0;
+}
+.lista li a:hover{
+    color: white;
+    text-shadow: 1px 1px 5px #000000;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 9999;
+    position:fixed;
+    margin: auto;
+    background-color: rgb(36, 47, 136);
+    align-items: center;
+}
+.lista li a{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: #ffffff;
+}
+.lista{
+    width: 1280px;
+    height: 50px;
+    background-color: rgb(36, 47, 136);
+    margin: auto;
+    padding: 0;
+}
+.lista > li{
+    display: block;
+    float: right;
+    width: 110px;
+    height: 22px;
+    margin:0 40px;
+    padding: 15px 0;
+}
+.lista > li:hover{
+    padding: 19px 0;
+}
+.lista li ul{
+    list-style: none;
+    background-color: rgb(36, 47, 136);
+    width: 190px;
+    height: auto;
+    padding: 0;
+    margin: auto 0;
+    display: none;
+    position: absolute;
+}
+.lista li ul li{
+    width: auto;
+    height:auto;
+    padding:7px 3px; 
+}  
+.lista li ul li ul li{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}    
+.lista li:hover > ul{
+    display: block;
+}
+.lista li ul li ul{
+    list-style: none;
+    background-color: rgb(36, 47, 136);
+    width: 190px;
+    height: auto;
+    right: -165px;
+    top: auto;
+    margin: auto 0;
+    padding:0 3;
+}
+.lista li ul a{
+    text-align: left;
+}
+.lista li ul li ul a{
+    text-align: left;
+}
+    
+.espacio{
+    height: 60px;
+    background-color: rgba(240, 248, 255, 0);
+}
+footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(159, 159, 159);
+    margin: auto;
+}
+footer #article{
+    background-color: rgb(159, 159, 159);
+    width: 100%;
+    height: 310px;
+    margin: auto;
+}
+footer #article iframe{
+    width: 480px;
+    height: 300px;
+    margin: auto 3% auto 20%;
+    float: left;
+    display: block;
+}
+footer #article ul{
+    text-align: left;
+    padding-top:30px;
+    width: 1280px;
+    height: 40px;
+    margin: 5px 0;
+    
+}
+footer #article ul li{
+    color: white;
+    margin: 3px 10px;
+}
+footer #article ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer #article ul li a:hover{
+        color: #52d0ff;
+    }
+footer #article ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer article{
+    margin:0 0 0 0;
+    width: 100%;
+    height: 25px;
+    bottom: 0;
+    color: #898989;
+    text-align: center;
+    background-color: rgb(159, 159, 159);
+}
+footer #article ul li a img{
+    width: 25px;
+    margin: 0 5px;
+    height: 25px;
+}   
+}
+@media screen and (min-width:960px) and (max-width:1279px){
+#logo{
+    width: auto;
+    height: auto;
+    margin: 0 20px;
+    padding: 5px; 0;
+    }
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55px;
+    z-index: 9999;
+    position:fixed;
+    margin: auto;
+    background-color: rgb(36, 47, 136);
+    align-items: center;
+}
+.lista li a{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.lista li a:hover{
+    color: white;
+    text-shadow: 1px 1px 3px #000000;
+}
+#boton: hover{
+    background-color: rgb(36, 47, 136);
+}
+
+.lista{
+    width: 900px;
+    height: 55px;
+    background-color: rgb(36, 47, 136);
+    margin: auto;
+    padding: 0;
+}
+.lista > li{
+    background-color: rgb(36, 47, 136);
+    display: block;
+    float: right;
+    width: 100px;
+    height: 35px;
+    margin: auto 20px;
+    padding: 10px 0;
+}
+
+.lista li ul{
+    background-color: rgb(36, 47, 136);
+    width: 200px;
+    height: auto;
+    padding: 0;
+    margin: auto 0;
+    display: none;
+    position: absolute;
+}
+.lista li:hover > ul{
+    display: block;
+}
+.lista li ul li{
+    width: auto;
+    height:auto;
+    padding:5px 3px; 
+}  
+.lista li ul li ul li{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}   
+.lista li ul li ul{
+    background-color: rgb(36, 47, 136);
+    width: 190px;
+    height: auto;
+    right: -160px;
+    top: auto;
+    margin: auto 0;
+    padding: 0;
+}
+.lista li ul a{
+    text-align: left;
+}
+.lista li ul li ul a{
+    text-align: left;
+}
+#nuevos{
+    width: 200px;
+}
+
+.espacio{
+    height: 55px;
+    background-color: rgba(240, 248, 255, 0);
+}
+    
+footer{
+    width: 100%;
+    height: 360px;
+    background-color: rgb(159, 159, 159);
+    margin: auto;
+}
+footer #article{
+    background-color: rgb(159, 159, 159);
+    width: 100%;
+    height: 330px;
+    margin: auto;
+}
+footer #article iframe{
+    width: 480px;
+    height: 300px;
+    margin: 0 3% 0 8%;
+    float: left;
+    display: block;
+}
+footer #article ul{
+    text-align: left;
+    padding-top:30px;
+    width: 900px;
+    height: 310px;
+    margin: 5px 0;
+    
+}
+footer #article ul li{
+    color:white;
+    text-align: left;
+    margin:0 30px; 
+    padding: 0;
+}
+footer #article ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer #article ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer #article ul li a:hover{
+        color: #52d0ff;;
+}
+footer #article ul li a img{
+    width: 25px;
+    margin: 0 5px;
+    height: 25px;
+}
+footer article{
+    margin: 0;
+    padding: 0;
+    color: #898989;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(159, 159, 159);
+}
+}
+@media screen and (min-width:720px) and (max-width:959px){
+#logo{
+    width: auto;
+    height: auto;
+    margin: 0 15px;
+    padding: 5px 0;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 9999;
+    position:fixed;
+    margin: auto;
+    background-color: rgb(36, 47, 136);
+    align-items: center;
+}
+.lista li a{
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.lista li a:hover{
+    color: white;
+    text-shadow: 1px 1px 5px #000000;
+}
+#boton: hover{
+    background-color: rgb(36, 47, 136);
+}
+
+.lista{
+    width: 720px;
+    height: 50px;
+    background-color: rgb(36, 47, 136);
+    margin: auto;
+    padding: 0;
+}
+.lista > li{
+    background-color: rgb(36, 47, 136);
+    display: block;
+    float: right;
+    width: 90px;
+    height: 30px;
+    margin: auto 7px;
+    padding: 10px 0;
+    font-size: 17px;
+}
+.lista li ul li{
+    width: auto;
+    height:auto;
+    padding:5px 3px; 
+}  
+.lista li ul li ul li{
+    width: auto;
+    height: auto;
+    padding: 5px;
+}   
+.lista li ul{
+    background-color: rgb(36, 47, 136);
+    width: 200px;
+    height: auto;
+    padding: 0;
+    margin: auto 0;
+    display: none;
+    position: absolute;
+}
+
+.lista li:hover > ul{
+    display: block;
+}
+.lista li ul li ul{
+    background-color: rgb(36, 47, 136);
+    width: 200px;
+    height: auto;
+    right: -180px;
+    top: auto;
+    margin: auto 0;
+    padding: 0;
+}
+.lista li ul a{
+    text-align: left;
+}
+.lista li ul li ul a{
+    text-align: left;
+}
+#nuevos{
+    width: 200px;
+}
+
+
+.espacio{
+    height: 48px;
+    background-color: rgba(240, 248, 255, 0);
+}
+footer{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(159, 159, 159);
+    margin: auto;
+}
+footer #article{
+    background-color: rgb(159, 159, 159);
+    width: 100%;
+    height: 310px;
+    margin: auto;
+}
+footer #article iframe{
+    width: 410px;
+    height: 300px;
+    margin: auto 0% auto 3%;
+    float: left;
+    display: block;
+}
+footer #article ul{
+    text-align: left;
+    padding-top:10px;
+    width: 720px;
+    height: 30px;
+    margin: 10px 0px 0px 0px;
+}
+footer #article ul li{
+    color: white;
+    margin: 5px auto 0px 0px;  
+}
+footer #article ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer #article ul li a:hover{
+        color: #52d0ff;;
+}
+footer #article ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer article{
+    margin: 0;
+    width: 100%;
+    color: #898989;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(159, 159, 159);
+}
+footer #article ul li a img{
+    width: 25px;
+    margin: 0 5px;
+    height: 25px;
+}    
+}
+@media screen and (min-width:0px) and (max-width:719px){
+#logo{
+     width: 100px;
+    height: auto;
+    margin: 0;
+    padding: 5px 0;
+}
+header{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    z-index: 9999;
+    position:fixed;
+    margin: auto;
+    background-color: rgb(36, 47, 136);
+    align-items: center;
+}
+.lista li a{
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.lista li a:hover{
+    color: white;
+    text-shadow: 1px 1px 5px #000000;
+}
+#boton: hover{
+    background-color: rgb(36, 47, 136);
+}
+
+.lista{
+    width: 480px;
+    height: 40px;
+    background-color: rgb(36, 47, 136);
+    margin: auto;
+    padding: 0;
+}    
+.lista > li{
+    background-color: rgb(36, 47, 136);
+    display: block;
+    float: right;
+    width: 70px;
+    height: 20px;
+    margin: auto 3px;;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.lista li ul{
+    background-color: rgb(36, 47, 136);
+    width: 180px;
+    height: auto;
+    padding: 0;
+    margin: auto 0;
+    display: none;
+    position: absolute;
+}
+.lista li:hover > ul{
+    display: block;
+}
+.lista li ul li{
+    width: auto;
+    height:auto;
+    padding:4px 2px; 
+}  
+.lista li ul li ul li{
+    width: auto;
+    height: auto;
+    padding: 4px;
+}   
+.lista li ul li ul{
+    background-color: rgb(36, 47, 136);
+    width: 150px;
+    height: auto;
+    left: -100px;
+    top: auto;
+    margin: auto 0;
+    padding: 0;
+}
+.lista li ul a{
+    text-align: left;
+}
+.lista li ul li ul a{
+    text-align: left;
+}
+
+.espacio{
+    height: 40px;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+footer{
+    width: 100%;
+    height: 470px;
+    background-color: rgb(159, 159, 159);
+    margin: auto;
+}
+footer #article{
+    background-color: rgb(159, 159, 159);
+    width: 100%;
+    height: 480px;
+    margin: auto;
+}
+footer #article iframe{
+    width: 100%;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+footer #article ul{
+    width: 480px;
+    height: 30px;
+    margin: 10px auto;
+    
+}
+footer #article ul li{
+    color: white;
+    display: block;
+    float: left;
+    margin: 0 10px;
+}
+footer #article ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer #article ul li a:hover{
+        color: #52d0ff;
+}    
+footer #article ul li img{
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+footer article{
+    margin: 0;
+    width: 100%;
+    height: 25px;
+    color: #898989;
+    text-align: center;
+    background-color: rgb(159, 159, 159);
+}
+footer #article ul li a img{
+    width: 25px;
+    margin: 0 5px;
+    height: 25px;
+}
+}
